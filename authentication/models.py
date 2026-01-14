@@ -1,7 +1,7 @@
 from ckeditor.fields import RichTextField
 from django.contrib.auth.models import AbstractUser, UserManager
 from django.db.models import Model, ForeignKey, CASCADE, ImageField
-from django.db.models.fields import EmailField, DateTimeField, CharField, BooleanField, URLField
+from django.db.models.fields import EmailField, DateTimeField, CharField, BooleanField
 from django.utils.translation import gettext_lazy as _
 
 from core.storage import SupabaseStorage
